@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>中文RSS订阅源精选</title>
+    <dateCreated>2025-11-19</dateCreated>
+    <docs>http://opml.org/spec2.opml</docs>
+  </head>
+  <body>
+
+    <!-- 科技类 -->
+    <outline text="科技" title="科技">
+
+      <!-- 个人技术博客 -->
+      <outline text="个人技术博客" title="个人技术博客">
+        <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml" htmlUrl="https://www.ruanyifeng.com/blog/"/>
+        <outline type="rss" text="酷壳 CoolShell" title="酷壳 CoolShell" xmlUrl="http://coolshell.cn/feed" htmlUrl="http://coolshell.cn/"/>
+        <outline type="rss" text="云风的BLOG" title="云风的BLOG" xmlUrl="http://blog.codingnow.com/atom.xml" htmlUrl="http://blog.codingnow.com/"/>
+        <outline type="rss" text="四火的唠叨" title="四火的唠叨" xmlUrl="http://www.raychase.net/feed" htmlUrl="http://www.raychase.net/"/>
+        <outline type="rss" text="秋水逸冰" title="秋水逸冰" xmlUrl="https://teddysun.com/feed" htmlUrl="https://teddysun.com/"/>
+      </outline>
+
+      <!-- 技术媒体 -->
+      <outline text="技术媒体" title="技术媒体">
+        <outline type="rss" text="少数派" title="少数派" xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com/"/>
+        <outline type="rss" text="V2EX" title="V2EX" xmlUrl="https://v2ex.com/index.xml" htmlUrl="https://v2ex.com/"/>
+        <outline type="rss" text="极客公园" title="极客公园" xmlUrl="http://www.geekpark.net/rss" htmlUrl="http://www.geekpark.net/"/>
+        <outline type="rss" text="IT之家" title="IT之家" xmlUrl="https://www.ithome.com/rss/" htmlUrl="https://www.ithome.com/"/>
+        <outline type="rss" text="虎嗅网" title="虎嗅网" xmlUrl="https://www.huxiu.com/rss/0.xml" htmlUrl="https://www.huxiu.com/"/>
+        <outline type="rss" text="爱范儿" title="爱范儿" xmlUrl="https://www.ifanr.com/feed" htmlUrl="https://www.ifanr.com/"/>
+        <outline type="rss" text="36氪" title="36氪" xmlUrl="https://36kr.com/feed" htmlUrl="https://36kr.com/"/>
+      </outline>
+
+      <!-- 技术团队博客 -->
+      <outline text="技术团队博客" title="技术团队博客">
+        <outline type="rss" text="美团技术团队" title="美团技术团队" xmlUrl="https://tech.meituan.com/feed" htmlUrl="https://tech.meituan.com/"/>
+        <outline type="rss" text="有赞技术团队" title="有赞技术团队" xmlUrl="https://tech.youzan.com/rss/" htmlUrl="https://tech.youzan.com/"/>
+        <outline type="rss" text="字节跳动技术团队 (via RSSHub)" title="字节跳动技术团队" xmlUrl="https://rsshub.app/juejin/posts/1838039172387262" htmlUrl="https://juejin.cn/user/1838039172387262"/>
+      </outline>
+
+      <!-- 开发者社区 -->
+      <outline text="开发者社区" title="开发者社区">
+        <outline type="rss" text="掘金前端 (via RSSHub)" title="掘金前端" xmlUrl="https://rsshub.app/juejin/category/frontend" htmlUrl="https://juejin.cn/"/>
+        <outline type="rss" text="开源中国 (via RSSHub)" title="开源中国" xmlUrl="https://rsshub.app/oschina/news/project" htmlUrl="https://www.oschina.net/"/>
+        <outline type="rss" text="HelloGitHub月刊" title="HelloGitHub月刊" xmlUrl="http://hellogithub.com/rss" htmlUrl="http://hellogithub.com/"/>
+      </outline>
+
+    </outline>
+
+    <!-- AI类 -->
+    <outline text="AI 人工智能" title="AI 人工智能">
+      <outline type="rss" text="微软研究院AI头条 (via RSSHub)" title="微软研究院AI头条" xmlUrl="https://plink.anyfeeder.com/weixin/MSRAsia" htmlUrl="https://weixin.sogou.com/weixin?type=1&amp;query=MSRAsia"/>
+      <outline type="rss" text="新智元 (via RSSHub)" title="新智元" xmlUrl="https://plink.anyfeeder.com/weixin/AI_era" htmlUrl="https://weixin.sogou.com/weixin?type=1&amp;query=AI_era"/>
+      <outline type="rss" text="NVIDIA官方博客" title="NVIDIA官方博客" xmlUrl="https://www.nvidia.cn/about-nvidia/rss/" htmlUrl="https://www.nvidia.cn/"/>
+    </outline>
+
+    <!-- 网络小说类 -->
+    <outline text="网络小说" title="网络小说">
+      <outline text="说明：通过RSSHub订阅特定作者或作品，需替换{作者ID}或{作品ID}" title="使用说明"/>
+
+      <outline text="起点中文网 (via RSSHub)" title="起点中文网">
+        <outline type="rss" text="起点限时免费" title="起点限时免费" xmlUrl="https://rsshub.app/qidian/free" htmlUrl="https://www.qidian.com/free"/>
+        <outline type="rss" text="起点女生网限时免费" title="起点女生网限时免费" xmlUrl="https://rsshub.app/qidian/free/mm" htmlUrl="https://www.qidian.com/mm/free"/>
+        <outline text="模板：作者作品 - https://rsshub.app/qidian/author/{作者ID}" title="订阅模板"/>
+        <outline text="模板：小说讨论区 - https://rsshub.app/qidian/forum/{小说ID}" title="订阅模板"/>
+      </outline>
+
+      <outline text="晋江文学城 (via RSSHub)" title="晋江文学城">
+        <outline text="模板：作品更新 - https://rsshub.app/jjwxc/book/{作品ID}" title="订阅模板"/>
+        <outline text="模板：作者最新作品 - https://rsshub.app/jjwxc/author/{作者ID}" title="订阅模板"/>
+      </outline>
+    </outline>
+
+    <!-- 旅游类 -->
+    <outline text="旅游" title="旅游">
+      <outline type="rss" text="国家地理 (via RSSHub)" title="国家地理" xmlUrl="https://rsshub.app/natgeo" htmlUrl="https://www.natgeomedia.com/"/>
+      <outline type="rss" text="走进日本 (via RSSHub)" title="走进日本" xmlUrl="https://rsshub.app/jpweekly" htmlUrl="https://www.jpweekly.com/"/>
+      <outline text="说明：马蜂窝、穷游等平台暂无官方RSS，可通过RSSHub自建路由或关注旅游博主的个人博客" title="使用说明"/>
+    </outline>
+
+  </body>
+</opml>
